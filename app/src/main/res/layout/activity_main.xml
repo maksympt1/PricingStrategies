@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.pricingstrategies.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/intro_TextView"
+            style="@style/IntroTextView"
+            android:text="@string/intro"/>
+
+        <ImageView
+            android:id="@+id/arrow_ImageView"
+            android:contentDescription="@string/arrow_description"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/arrow_icon_height"
+            android:src="@drawable/ic_arrow2_48dp"
+            android:scaleType="center" />
+
+        <TextView
+            android:id="@+id/strategy01_TextView"
+            style="@style/StrategyType_odd"
+            android:text="@string/second_market_discounting" />
+
+        <TextView
+            android:id="@+id/strategy02_TextView"
+            style="@style/StrategyType_even"
+            android:text="@string/periodic_discounts" />
+
+        <TextView
+            android:id="@+id/strategy03_TextView"
+            style="@style/StrategyType_odd"
+            android:text="@string/random_discounts" />
+
+        <TextView
+            android:id="@+id/strategy04_TextView"
+            style="@style/StrategyType_even"
+            android:text="@string/penetration_pricing" />
+
+        <TextView
+            android:id="@+id/strategy05_TextView"
+            style="@style/StrategyType_odd"
+            android:text="@string/experience_curve_pricing" />
+
+        <TextView
+            android:id="@+id/strategy06_TextView"
+            style="@style/StrategyType_even"
+            android:text="@string/price_signaling" />
+
+        <TextView
+            android:id="@+id/strategy07_TextView"
+            style="@style/StrategyType_odd"
+            android:text="@string/geographic_pricing" />
+
+        <TextView
+            android:id="@+id/strategy08_TextView"
+            style="@style/StrategyType_even"
+            android:text="@string/price_bundling" />
+
+        <TextView
+            android:id="@+id/strategy09_TextView"
+            style="@style/StrategyType_odd"
+            android:text="@string/premium_pricing" />
+
+        <TextView
+            android:id="@+id/strategy10_TextView"
+            style="@style/StrategyType_even"
+            android:text="@string/image_pricing" />
+
+        <TextView
+            android:id="@+id/strategy11_TextView"
+            style="@style/StrategyType_odd"
+            android:text="@string/reference_pricing" />
+
+        <TextView
+            android:id="@+id/strategy12_TextView"
+            style="@style/StrategyType_even"
+            android:text="@string/complementary_pricing" />
+
+    </LinearLayout>
+</ScrollView>

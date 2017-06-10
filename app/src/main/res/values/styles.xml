@@ -1,0 +1,76 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorSecondary</item>
+    </style>
+
+    <!--Introduction TextView-->
+    <style name="IntroTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/intro_width_padding</item>
+        <item name="android:paddingRight">@dimen/intro_width_padding</item>
+        <item name="android:paddingTop">@dimen/intro_height_padding</item>
+        <item name="android:paddingBottom">@dimen/intro_height_padding</item>
+        <item name="android:textSize">@dimen/intro_textSize</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/colorSecondary</item>
+        <item name="android:textColor">@color/defaultTextColor</item>
+    </style>
+
+    <!--Strategy Type TextView-->
+    <style name="StrategyType">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/strategy_type_textSize</item>
+        <item name="android:padding">@dimen/strategy_type_padding</item>
+        <item name="android:gravity">end</item>
+    </style>
+
+    <style name="StrategyType_odd" parent="StrategyType">
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/defaultTextColor</item>
+    </style>
+
+    <style name="StrategyType_even" parent="StrategyType">
+        <item name="android:background">@color/colorSecondaryLight</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!--Strategy Description TextView-->
+    <style name="StrategyDescription">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/strategy_description_width_padding</item>
+        <item name="android:paddingRight">@dimen/strategy_description_width_padding</item>
+        <item name="android:paddingTop">@dimen/strategy_description_height_padding</item>
+        <item name="android:paddingBottom">@dimen/strategy_description_height_padding</item>
+        <item name="android:textSize">@dimen/strategy_description_textSize</item>
+        <item name="android:background">@color/colorSecondary</item>
+        <item name="android:textColor">@color/defaultTextColor</item>
+    </style>
+
+    <!--Strategy Image-->
+    <style name="StrategyImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!--Strategy Example-->
+    <style name="StrategyExample">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/strategy_description_width_padding</item>
+        <item name="android:paddingRight">@dimen/strategy_description_width_padding</item>
+        <item name="android:paddingTop">@dimen/strategy_description_height_padding</item>
+        <item name="android:paddingBottom">@dimen/strategy_description_height_padding</item>
+        <item name="android:textSize">@dimen/strategy_description_textSize</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/defaultTextColor</item>
+    </style>
+</resources>

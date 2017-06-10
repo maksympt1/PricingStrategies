@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">Pricing Strategies</string>
+
+    <!--Strategy names-->
+    <string name="second_market_discounting">Second Market Discounting</string>
+    <string name="periodic_discounts">Periodic Discounts</string>
+    <string name="random_discounts">Random Discounts</string>
+    <string name="penetration_pricing">Penetration Pricing</string>
+    <string name="experience_curve_pricing">Experience Curve Pricing</string>
+    <string name="price_signaling">Price Signaling</string>
+    <string name="geographic_pricing">Geographic Pricing</string>
+    <string name="price_bundling">Price Bundling</string>
+    <string name="premium_pricing">Premium Pricing</string>
+    <string name="image_pricing">Image Pricing</string>
+    <string name="reference_pricing">Reference Pricing</string>
+    <string name="complementary_pricing">Complementary Pricing</string>
+
+    <!--Descriptions-->
+    <string name="intro">Please find below 12 different pricing strategies. \n\nClick on any
+        strategy to find out more!</string>
+    <string name="arrow_description">An arrow icon pointing downwards</string>
+
+
+
+
+
+    <!--Strategy descriptions-->
+    <string name="description_second_market_discounting">The idea behind is that manufacturers will
+        create an alternative product and sell it at a lower price than their main product.
+        This cheaper alternative will be sold in a second market - in places where they know the
+        customers cannot afford to buy the expensive product.
+</string>
+    <string name="description_periodic_discounts">The company makes the price lower during times
+        when they know people are not likely to buy the item. The essential principle of this strategy
+        is that the way a company discounts is predictable by the consumers over time. This type of
+        discount is interesting because both sides of the deal benefit from the discount.</string>
+    <string name="description_random_discounts">The goal of random discounting is to make the consumer
+        pay the highest price they are willing to pay for the product or service. They put discounts
+        during random time periods so that the uninformed consumer does not pick up on the trend of
+        discounting. These random discounts as the name suggest are ‘random’, and do not have to have
+        an explicit reason for discounting.
+</string>
+    <string name="description_penetration_pricing">Penetration pricing is when a company sells its product
+        at a lower price than its competitors or even the lowest price possible compared to its average costs.
+        The objective is to maximize sales volume, increase market share and prevent competition from entering
+        to the market. It\'s commonly used when launching new products and with price sensitive consumers.
+</string>
+    <string name="description_experience_curve_pricing">Experience curve pricing is usually a price strategy
+        used by firms with strong position in their market. The idea is about lowering their prices as much as
+        they can (sometimes even below the cost of production, if necessary), forcing other firms to leave this
+        market, thus decreasing competition.\n\nIf this strategy is effective, the firm can absorb market share and
+        sell much more in the future, which is expected to bring unit manufacturing cost down (due to economies
+        of scale and experience curve), making the firm more profitable.</string>
+    <string name="description_price_signaling">Price signaling is a pricing strategy that uses price
+        to give buyer a hint about that product\'s quality. In generic terms, if price is higher -
+        perceived quality is higher, if price is lower - perceived quality is lower.\n\nThere are
+        some assumptions that must be verified for this strategy to work.</string>
+    <string name="description_geographic_pricing">Consists in changing the price according to geographic location,
+        taking into account consumer demand and shipping expenses. There are various variations of geographic pricing:
+        FOB, uniform delivered price, zone price and basing point; but they all have the same concepts behind.
+</string>
+    <string name="description_price_bundling">Normal price bundling - the company sells the bundle
+        priced as the sum of each product\'s minimum price (clients are willing to pay).
+        \n\nAlthough, some clients are willing to pay more/less for each of those products - that’s
+        where mixed bundling comes into play.\n\nMixed bundling - In order to maximize the profits, the
+        firm could, additionally, choose to sell each product individually at its highest price (clients are willing to pay).\n\nMixed bundling has the advantage of having an option (the bundle) that is cheaper than the sum of buying each product individually.</string>
+    <string name="description_premium_pricing">Premium pricing is used when we have 2 types of consumers:
+        \n\n1) Price insensitive, which prefer the superior version of a product;\n2) Price sensitive, which
+        want the basic version of a product. \n\nIf possible, both versions of the product can be produced together,
+        satisfying both type of customers and taking advantage of economies of scale.
+</string>
+    <string name="description_image_pricing">Image pricing can be identified when there are products
+        with the same benefits for the customer which sell for different prices in the market.\n\nA firm
+        supplies the market only with its product, but sells it with different names and model numbers,
+        for different prices. The profits made on higher-priced products are used to reduce the price
+        of lower-priced ones.
+</string>
+    <string name="description_reference_pricing">When we see 2 identical products in one place, and
+        we can compare them in real-time, the one that is cheaper looks more attractive than if we’d
+        compare these two products separately, in different time frames.\n\nThat is called “the
+        isolation effect” - the attractiveness of a cheaper alternative is reduced as we physically move it
+        away from the expensive option, making the buyer less able to compare them together, in real-time.
+</string>
+    <string name="description_complementary_pricing_1">This pricing strategy is based on the idea that it is
+        possible to recover your loss from the main product sale (due to underpricing) on complementary parts
+        necessary for the main product to be used.\n\nThis strategy has 3 different forms:\n\n- Captive pricing
+        (products that will need extra supplies in the future)</string>
+    <string name="description_complementary_pricing_2">- Two-parts pricing (services that divide tariffs in two parts – fixed and variable)</string>
+    <string name="description_complementary_pricing_3">- Loss leadership (retailers to establish very low prices to gain more traffic to their stores)</string>
+
+
+
+
+
+
+    <!--Strategy examples-->
+    <string name="example_second_market_discounting"><b>Example:</b>\n\nProctor and Gamble\'s
+        detergent segment line - they have multiple laundry detergents where «Ariel», «Tide» and «Gain» are sold in big supermarkets
+        like Walmart, whereas «Bonux» and some other less known brands are sold in discounted markets like local shops.</string>
+    <string name="example_periodic_discounts"><b>Example:</b>\n\nA good example is when clothing stores
+        sell winter clothing cheaper during the summer months, and summer clothing cheaper during the winter months.
+</string>
+    <string name="example_random_discounts"><b>Example:</b>\n\nAirline companies selling tickets online.
+        They maximize profit by selling as many seats for high price as they can, but will offer discounts
+        to make sure the seats on the plane get filled by consumers who are not willing to pay the full price.
+</string>
+    <string name="example_penetration_pricing"><b>Example:</b>\n\nAn example of penetration pricing can be found
+        in the world largest internet retailer - Amazon. New product launches, like «Amazon Fire» tablet, have a
+        considerably lower price when compared to its competitors but it still offers similar or even superior
+        specifications. It\'s clear that Amazon has a penetration strategy that maximizes sales volume, market
+        share and also attracts customers from competitors.
+</string>
+    <string name="example_experience_curve_pricing"> <b>Example:</b>\n\nWal-Mart, a company that
+        relied heavily on low prices and believed in huge volumes, learning curve and economies of
+        scale as their way to succeed. By selling always at a lower price, they managed to attract
+        millions of clients that allowed them to grow to the giants they are now.</string>
+    <string name="example_price_signaling"><b>Example:</b>\n\nOne of the industries this strategy
+        finds its best use is in wine business. When an uninformed customer is choosing between two
+        bottles of wine (where one is priced at 20$ and another at 5$), the tendency is to associate
+        higher quality to the most expensive one, although it may not be true.\n\nStudies have verified
+        that even after tasting two wines, the uninformed person would say that the most expensive
+        option is of superior quality, even when it\'s not.</string>
+    <string name="example_geographic_pricing"><b>Example:</b>\n\nIf you are a computer enthusiast and
+        you live in Portugal, you probably have noticed that computer components manufactured in USA
+        will be less costly to buy in USA rather than Portugal. But when you look at transportation costs,
+        you will come to the conclusion that it will be cheaper to buy these in Portugal.
+</string>
+    <string name="example_price_bundling"><b>Example:</b>\n\nAn example of normal price bundling would be
+        the Volkswagen Golf R-line. You are offered additional components that come with the car: specific
+        parts such as different front bumper or sports diffusor, as well as various interior details
+        (ranging from the R-line logo in the front seat\'s head rest and in the media center to the carbon
+        flag sports seats). The R-line bundle costs 26.559€ which is about 2000€ more expensive than the original price.
+</string>
+    <string name="example_premium_pricing"><b>Example:</b>\n\nAn example is the price of tickets to football matches.
+        As we can see in the table above, the tickets for the Champions League Finals of 2017 are priced very differently
+        although the actual difference for the spectator is not that much. With this strategy, the organization can charge
+        the price insensitive spectators that want the best tickets almost seven times more than it charges those in the
+        lower price range. Thus, exploring efficiently the difference in consumer demand.
+</string>
+    <string name="example_image_pricing"><b>Example:</b>\n\nIt is very common for clothing
+        manufacturers to sell their clothing products to their clients (businesses), which are
+        various distributors and clothing brands around the world. These client-companies have
+        differences in their brand awareness and consequently they will sell the same product, but
+        with their label, for different prices.
+</string>
+    <string name="example_reference_pricing"><b>Example:</b>\n\nCoca-cola and other white label
+        products that are presented in the same format, image and look as Coca-cola. Obviously, they
+        differ in quality (lower) and price (cheaper) from Coca-Cola original brand. But as they stand
+        together, the customer is thinking:\n\n \"Should I buy Coca-Cola because it tastes really good,
+        or should I save some money and buy something similar, but not as good?\"
+</string>
+    <string name="example_complementary_pricing_1">For example, when you buy a razor, you will need to buy and change
+        its blades from time to time.
+</string>
+    <string name="example_complementary_pricing_2">For example, when you first pay for gym registration fee (fixed)
+        and then you choose which monthly program you want (variable).
+</string>
+    <string name="example_complementary_pricing_3">For example, the popular Black Friday, which is announced
+        nationally (even worldwide), and that makes a lot of people purchase in that day.
+</string>
+</resources>

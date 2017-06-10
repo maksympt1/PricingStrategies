@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Intro TextView-->
+    <dimen name="intro_top_padding">20dp</dimen>
+    <dimen name="intro_width_padding">10dp</dimen>
+    <dimen name="intro_textSize">18sp</dimen>
+    <dimen name="intro_height_padding">20dp</dimen>
+
+    <!--Arrow icon-->
+    <dimen name="arrow_icon_height">48dp</dimen>
+
+    <!--Strategy Type TextView-->
+    <dimen name="strategy_type_padding">10dp</dimen>
+    <dimen name="strategy_type_textSize">22sp</dimen>
+
+    <!--Strategy Description TextView-->
+    <dimen name="strategy_description_height_padding">20dp</dimen>
+    <dimen name="strategy_description_width_padding">10dp</dimen>
+    <dimen name="strategy_description_textSize">18sp</dimen>
+</resources>

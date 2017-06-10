@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.pricingstrategies.strategy05">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/StrategyDescription"
+            android:text="@string/description_experience_curve_pricing" />
+
+        <ImageView
+            style="@style/StrategyImage"
+            android:src="@drawable/experience_curve_pricing" />
+
+        <TextView
+            style="@style/StrategyExample"
+            android:text="@string/example_experience_curve_pricing" />
+
+    </LinearLayout>
+</ScrollView>
